@@ -31,7 +31,7 @@ key = generate_key()
 print(key)
 
 key = generate_key()
-message = "YOU ARE AWESOME"
+message = input("Message: ")
 cipher = encrypt(key, message)
 print(cipher)
 dkey = get_decrypt_key(key)
