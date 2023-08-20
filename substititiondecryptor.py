@@ -3,6 +3,7 @@ import random
 
 def generate_key():
     letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    # letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890,./;'[]<>?:\"{}|\!@#$%^&*()_+-= "
     cletters = list(letters)
     key = {}
     for c in letters:
